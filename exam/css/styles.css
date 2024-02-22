@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(53, 26, 26);
+    background-image: url(../images/banner.jpg);
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    font-family: poppins;
+    color: #2250ac;
+    font-size: 900;
+    border: 5px solid rgb(128, 94, 161);
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    font-family: poppins;
+    color: #2250ac;
+    font-size: 900;
+}
+
+.main{
+    display: flex;
+    width: 400px;
+    padding: 60px 40px;
+    border-radius: 5px;
+    background: rgb(192, 192, 192);
+    flex-direction: column;
+    row-gap: 30px;
+    border: 10px solid rgb(152, 98, 207);
+}
+
+.height, 
+.weight, 
+.check{
+    position: relative;
+}
+
+.height p, .weight p, .check p{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(87, 18, 75);
+    top: 100%;
+    left: 0;
+}
+
+input{
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid rgb(56, 53, 53);
+    background: transparent;
+    outline-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+
+.check{
+    position: relative;
+}
+
+.check h3{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(30, 62, 204);
+    left: 60px;
+    font-weight: bold;
+}
+
+.check p{
+    font-size: 20px;
+    color: rgb(30, 62, 204);
+    
+}
+
+button {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    color: #24292E;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 16px;
+  }
+  
+  button:hover {
+    background-color: #2367ee;
+    text-decoration: none;
+    color: #f2f8ff;
+    transition-duration: 0.1s;
+  }
+
+  .Check {
+    width: 100%;
+  }
